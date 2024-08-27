@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myFun(){
+         var a = 100;
+         try {
+        //     var s = a.toUpperCase();
+             alert("value of a is :" + a);
+     
+         }
+         catch(e){
+             alert("Error");
+         }
+         finally {
+             alert("It always executr");
+         }
+        }
+         </script>
+</head>
+<body>
+
+  
+     <p>Click the following button call the function </p>
+     <form>
+     <input type="button" onclick="myFun()" value="Say Hello">
+  
+     </form>
+    
+</body>
+</html>

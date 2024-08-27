@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        function sayHello(name,age){
+            document.write(name + " is " + age + "old year");
+        }
+    
+    
+        </script>
+</head>
+<body>
+<p>Click the following button to call the function</p>
+<form>
+    <input name="t1" placeholder="Enter Name"/><br/>
+    <input name="t2" placeholder="Enter Age"/><br/>
+    <input type="button" onclick="sayHello(t1.value,t2.value)" value="say Hello"/>
+
+    
+
+
+</form>
+   
+    
+</body>
+</html>
